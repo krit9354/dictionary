@@ -8,7 +8,6 @@ def addWord():
         writer = csv.writer(file)
         writer.writerow([add,Fmean])
 
-
 window = tkinter.Tk()
 text1 = tkinter.Label(window, text="word to add : ").grid(row=0,column=0)
 text2 = tkinter.Label(window, text="mean of word : ").grid(row=1,column=0)

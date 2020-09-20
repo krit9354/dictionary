@@ -15,7 +15,7 @@ def searchWord():
     sellect = user.get()
     if sellect in dict.keys():
         print("mean :", dict[sellect])
-        text = tkinter.Label(window, text=" : "+dict[sellect]).grid(row=0,column=1)
+        text = tkinter.Label(window, text="mean : "+dict[sellect]).grid(row=0,column=1)
     else:
         print("errror!.try again")
 
